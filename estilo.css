@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+
+
+
+
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: 'Kaisei HarunoUmi', serif;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'Kaisei HarunoUmi', serif;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+.filter1{
+	filter: grayscale(1);
+	margin-top: 10px;
+}
+
+.filter2{
+	filter: brightness(-2);
+	margin-top: 10px;
+}
+
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px; 
+	 background:
+       	  url(../img/dados.png) left top no-repeat,
+       	  url(../img/dados.png) right bottom no-repeat,
+       	  url(../img/mesa.jpg) 0 0 no-repeat;
+
+}
+
+.columnas {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	column-gap: 20px;
+	column-rule: 1px solid #f00;
+	border-color: #f00;
+	border-width: 2px;
+	border-style: solid;
+}
+
+
+.redondos {
+	border-radius: 30px;
+}
+
+.transparencia, .sombra, .degradado {
+		width: 960px;
+	height: 640px;
+	background-color: green;
+}
+
+.transparencia {
+	background-color: rgba(255,0,0,0.4);
+}
+
+.degradado {
+	 background: linear-gradient(40deg,rgb(0,0,255),rgb(255,0,0));
+}
+
+.sombra {
+	background-color: white;
+	box-shadow:0px 0px 40px #ff4757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
